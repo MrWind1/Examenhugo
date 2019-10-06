@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netflis</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/NS.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/Chart.min.js"></script>
+</head>
+
+<body style="background-image:url(../img/SPK.jpg); background-attachment: fixed; background-position: center center;">
+
+    </style>
+    <div class="container-fluid bg-dark fixed-bottom ">
+        <div class="row mt-3 pl-3 pr-3 pb-3">
+            <div class="col-sm-4">
+                <input id="names" type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col-sm-4">
+                <select id="types" class="custom-select">
+                    <option value="movie"> Pelicula </option>
+                    <option value="series"> Serie </option>
+                </select>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-outline-success" type="button" onclick="Leer();">Buscar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-4" id="movies">
+
+        </div>
+    </div>
+<br>
+<br>
+<br>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
